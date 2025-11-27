@@ -1,13 +1,42 @@
-#enviroment files
+# ==========================
+# Environment Variables
+# ==========================
 .env
+.env.*
 
-#node modules
+
+# ==========================
+# Node Modules
+# ==========================
 node_modules/
-package-lock.json
-yarn.lock
-#logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
+
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+
+# Build / Cache Artifacts
+dist/
+build/
+.cache/
+.temp/
+.tmp/
+
+
+# ==========================
+# OS / Editor Specific
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json

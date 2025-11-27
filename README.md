@@ -43,7 +43,7 @@ REST API untuk mengelola data makanan tradisional Indonesia dengan integrasi dat
 
 ### 1. Clone Repository (jika menggunakan Git)
 ```bash
-git clone <repository-url>
+git clone https://github.com/Darisgithub/REST-SUPA.git
 cd rest-supa
 ```
 
